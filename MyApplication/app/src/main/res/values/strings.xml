@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bDestroyHumansText">Destroy all humans</string>
+    <string name="tvHeaderMessageText">What should I do?</string>
+    <string name="bShowMsgTxt">Show message</string>
+</resources>
