@@ -35,8 +35,27 @@
         android:id="@+id/tvBmiResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textSize="26sp"
+        />
 
+    <TextView
+        android:id="@+id/tvBmiResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
 
+    <TextView
+        android:id="@+id/tvBmiResultDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/imageBmiResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
 
 </LinearLayout>
