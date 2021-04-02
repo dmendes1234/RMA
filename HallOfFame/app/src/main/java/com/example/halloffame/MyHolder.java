@@ -1,4 +1,4 @@
-package com.example.recyclerview;
+package com.example.halloffame;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.text.BreakIterator;
+import com.example.recyclerview.R;
 
 public class MyHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 

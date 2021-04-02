@@ -1,4 +1,4 @@
-package com.example.recyclerview;
+package com.example.halloffame;
 
 public class Model {
     private String title, description;

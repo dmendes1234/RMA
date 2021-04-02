@@ -1,6 +1,5 @@
-package com.example.recyclerview;
+package com.example.halloffame;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +8,8 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.recyclerview.R;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package com.example.recyclerview;
+package com.example.halloffame;
 
 import android.view.View;
 
