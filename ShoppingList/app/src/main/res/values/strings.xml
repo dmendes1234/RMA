@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="etItemToAddHint">Enter item to add</string>
+    <string name="btnAdd">Add</string>
+    <string name="tvListItemText">List Item</string>
+</resources>
