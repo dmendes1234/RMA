@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.shoppinglist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:5:5-22:19
+12        android:allowBackup="true"
+12-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.2] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\f4b8bc10b6f5d4a12e06baaad3e39b5a\core-1.3.2\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.ShoppingList" >
+21-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:11:9-50
+22        <activity android:name="com.android.shoppinglist.ShowItemsListActivity" />
+22-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:12:9-68
+22-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:12:19-56
+23        <activity android:name="com.android.shoppinglist.SplashActivity" >
+23-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:13:9-20:20
+23-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:13:19-49
+24            <intent-filter>
+24-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:14:13-18:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:15:17-69
+25-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:15:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:17:17-77
+27-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:17:27-74
+28            </intent-filter>
+29            >
+30        </activity>
+31        <activity android:name="com.android.shoppinglist.MainActivity" />
+31-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:21:9-59
+31-->C:\Users\PC\AndroidStudioProjects\shoping_list_project-main\ShoppingList\app\src\main\AndroidManifest.xml:21:19-47
+32
+33        <service
+33-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:25:9-28:40
+34            android:name="androidx.room.MultiInstanceInvalidationService"
+34-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:26:13-74
+35            android:directBootAware="true"
+35-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:27:13-43
+36            android:exported="false" />
+36-->[androidx.room:room-runtime:2.3.0-alpha04] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\1a8367ee2f21cafe23a3eea6886813e8\room-runtime-2.3.0-alpha04\AndroidManifest.xml:28:13-37
+37
+38        <provider
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+39            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+40            android:authorities="com.android.shoppinglist.lifecycle-process"
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+41            android:exported="false"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+42            android:multiprocess="true" />
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\d5906b530ddf7ea2d590e933f9f3c829\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+43    </application>
+44
+45</manifest>
